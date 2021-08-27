@@ -1,5 +1,6 @@
 ## Alguns conhecimentos aplicados
 
 * Animation e keyframes;
-* Pseudo-classe hover
+* Pseudo-classe :hover
 * Flexbox
+* Pseudo-elemento ::before
