@@ -33,6 +33,11 @@ body {
     width: 36%;
     z-index: 1;
 }
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
 .first-content {
     
 }
@@ -54,6 +59,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.title-second {
+    color: #58af9b;
 }
 .list-social-media {
     display: flex;
