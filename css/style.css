@@ -46,8 +46,11 @@ body {
     flex: 1 0 auto;
     z-index: 2;
 }
-.white-text {
+.description-primary, .title-primary {
     color: #fff;
+}
+.description-second {
+    color: #7f8c8d;
 }
 .description {
     font-size: 20px;
@@ -65,10 +68,29 @@ body {
 }
 .list-social-media {
     display: flex;
+    list-style-type: none;
+}
+.item-social-media {
+    border: 1px solid #bdc3c7;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+.item-social-media a{
+    color: #95a5a6;
 }
 .form {
     display: flex;
     flex-direction: column;
+     
+}
+.form input {
+    height: 40px;
+    border: none;
+    background-color: #ecf0f1;
+    margin: 8px;
 }
 .btn {
     border-radius: 15px;
@@ -77,9 +99,12 @@ body {
     font-size: 10px;
     padding: 10px 50px;
     cursor: pointer;
+    width: 150px;
+    align-self: center;
 }
 .btn-primary {
     background-color: transparent;
+    
 }
 .btn-primary:hover {
     background-color: #fff;
