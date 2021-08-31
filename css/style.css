@@ -77,20 +77,32 @@ body {
     width: 35px;
     line-height: 35px;
     text-align: center;
+    margin-left: 10px;
 }
 .item-social-media a{
     color: #95a5a6;
 }
 .form {
     display: flex;
-    flex-direction: column;
-     
+    flex-direction: column;    
 }
 .form input {
     height: 40px;
+    width: 100%;
     border: none;
     background-color: #ecf0f1;
-    margin: 8px;
+    margin: 0 0 0 8px;
+}
+.label-input {
+    background-color: #ecf0f1;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+.fas {
+    color: #95a5a6;
+    margin: 0 0 0 5px;
 }
 .btn {
     border-radius: 15px;
@@ -101,13 +113,23 @@ body {
     cursor: pointer;
     width: 150px;
     align-self: center;
+    margin-top: 1em;
 }
 .btn-primary {
     background-color: transparent;
-    
+    border: 1px solid #fff;    
 }
 .btn-primary:hover {
     background-color: #fff;
+    color: #58af9b;
+}
+.btn-second {
+    background-color: #58af9b;
+    border: 1px solid #58af9b;
+}
+.btn-second:hover {
+    background-color: #fff;
+    border: 1px solid #58af9b;
     color: #58af9b;
 }
 .second-content {
