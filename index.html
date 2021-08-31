@@ -15,15 +15,21 @@
                 <h2 class="title title-primary">welcome back</h2>
                 <p class="description description-primary">To keep connected</p>
                 <p class="description description-primary">login with your account</p>
-                <button class="btn btn-primary">sign in</button>
+                <button id="sign-in" class="btn btn-primary">sign in</button>
             </div>
             <div class="second-column"> <!-- Segunda column -->
                 <h2 class="title title-second">create account</h2>
                 <div class="social-media">
                     <ul class="list-social-media">
-                        <li class="item-social-media"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li class="item-social-media"><a href="#"><i class="fab fa-google"></i></a></li>
-                        <li class="item-social-media"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <a class="link-social" href="">
+                        <li class="item-social-media"><i class="fab fa-facebook-f"></i></li>
+                        </a>
+                        <a class="link-social" href="">
+                        <li class="item-social-media"><i class="fab fa-google"></i></li>
+                        </a>
+                        <a class="link-social" href="">
+                        <li class="item-social-media"><i class="fab fa-linkedin-in"></i></li>
+                        </a>
                     </ul>
                 </div>
                 <p class="description description-second">or use your email to registration</p>
@@ -49,26 +55,39 @@
                 <h2 class="title title-primary">hello, friend</h2>
                 <p class="description description-primary">Enter your personal details</p>
                 <p class="description description-primary">to start your jorney</p>
-                <button class="btn btn-primary">sign up</button>
+                <button id="sign-up" class="btn btn-primary">sign up</button>
             </div>
             <div class="second-column"> <!-- Segunda column -->
-                <h2 class="description description-second">sign in to stay whith us</h2>
+                <h2 class="title title-second">sign in to stay with us</h2>
                 <div class="social-media">
                     <ul class="list-social-media">
-                        <li class="item-social-media"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li class="item-social-media"><a href="#"><i class="fab fa-google"></i></a></li>
-                        <li class="item-social-media"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <a class="link-social" href="">
+                            <li class="item-social-media"><i class="fab fa-facebook-f"></i></li>
+                        </a>
+                        <a class="link-social" href="">
+                            <li class="item-social-media"><i class="fab fa-google"></i></li>
+                        </a>
+                        <a class="link-social" href="">
+                            <li class="item-social-media"><i class="fab fa-linkedin-in"></i></li>
+                        </a>
                     </ul>
                 </div>
-                <p class="description">or use your email email account</p>
+                <p class="description description-second">or use your email email account</p>
                 <form action="#" class="form">
-                    <input type="email" placeholder="Email" name="" id="">
-                    <input type="password" placeholder="Password" name="" id="">
-                    <a href="#">forgot your password</a>
+                    <label class="label-input" for="">
+                        <i class="fas fa-at"></i>
+                        <input type="email" placeholder="Email" name="" id="">
+                    </label>
+                    <label class="label-input" for="">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" name="" id="">
+                    </label>                    
+                    <a class="forgot" href="#">forgot your password ?</a>                    
                     <button class="btn btn-second">sign in</button>
                 </form>                
             </div>
         </div>
     </div>
+    <script src="js/sign.js"></script>
 </body>
 </html>
