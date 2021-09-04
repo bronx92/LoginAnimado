@@ -178,6 +178,7 @@ body {
 .js-sign-in .content::before {
     left: 60%;
     border-radius: 0 15px 15px 0;
+    animation: right 1s;   
 }
 
 /*Sign Up*/
@@ -189,4 +190,62 @@ body {
 .js-sign-up .first-content .first-column,
 .js-sign-up .first-content .second-column {
     z-index: 4;
+}
+.js-sign-up .content::before {
+    animation: left 1s;
+}
+
+/* Animação CSS*/
+
+@keyframes right {
+    from {
+        left: 0%;
+        width: 40%;
+        z-index: 5;
+    }
+    25% {
+        left: 15%;
+        width: 40%;
+        z-index: 5;
+    }
+    50% {
+        left: 30%;
+        width: 40%;
+        z-index: 5;
+    }
+    75% {
+        left: 45%;
+        width: 40%;
+        z-index: 5;
+    }
+    to {
+        left: 60%;
+        width: 40%;
+    }
+}
+@keyframes left {
+    from {
+        left: 60%;
+        width: 40%;
+        z-index: 5;
+    }
+    25% {
+        left: 45%;
+        width: 40%;
+        z-index: 5;
+    }
+    50% {
+        left: 30%;
+        width: 40%;
+        z-index: 5;
+    }
+    75% {
+        left: 15%;
+        width: 40%;
+        z-index: 5;
+    }
+    to {
+        left: 0%;
+        width: 40%;
+    }
 }
